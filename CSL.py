@@ -102,7 +102,7 @@ non_donor_train = non_donors[:midpoint]
 non_donor_test = non_donors[midpoint:]
 
 non_donor_train= non_donor_train.sample(n= xtrain.shape[0], random_state= 42)
-non_donor_test= non_donor_test.sample(n= xtest.shape[0], random_state= 42)
+non_donor_test= non_donor_test.sample(n= xtrain.shape[0], random_state= 42)
 
 
 # In[7]:
